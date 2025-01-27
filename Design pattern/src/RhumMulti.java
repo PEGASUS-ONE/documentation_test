@@ -37,4 +37,12 @@ public class RhumMulti extends Multicoque{
     }
 
     /**
-     * Construct
+     * Constructeur avec nom, nom du skipper et stratégie de suivi de route.
+     * @param nom Le nom du RhumMulti.
+     * @param nomSkipper Le nom du skipper du RhumMulti.
+     * @param suivreRoute La stratégie de suivi de route pour le RhumMulti.
+     */
+    public RhumMulti(String nom, String nomSkipper, SuivreRoute suivreRoute){
+        super(nom, nomSkipper, suivreRoute);
+    }
+}
